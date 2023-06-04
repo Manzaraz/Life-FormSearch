@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		616A76382A1D7170008DE6CA /* EOLSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A76372A1D7170008DE6CA /* EOLSearchTableViewController.swift */; };
+		616A763A2A1D7191008DE6CA /* EOLItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A76392A1D7191008DE6CA /* EOLItemViewController.swift */; };
+		616A763C2A1D77A0008DE6CA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A763B2A1D77A0008DE6CA /* APIService.swift */; };
+		616A763E2A1D77B4008DE6CA /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A763D2A1D77B4008DE6CA /* APIRequest.swift */; };
+		616A76402A1D78B7008DE6CA /* EOLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A763F2A1D78B7008DE6CA /* EOLController.swift */; };
+		616A76422A1DA329008DE6CA /* EOLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A76412A1DA329008DE6CA /* EOLItem.swift */; };
+		616A76442A1DA33A008DE6CA /* EOLItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A76432A1DA339008DE6CA /* EOLItemDetail.swift */; };
+		616A76462A1DA353008DE6CA /* EOLHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A76452A1DA353008DE6CA /* EOLHierarchy.swift */; };
 		618AC0B12A154436005FB994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618AC0B02A154436005FB994 /* AppDelegate.swift */; };
 		618AC0B32A154436005FB994 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618AC0B22A154436005FB994 /* SceneDelegate.swift */; };
 		618AC0B82A154436005FB994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618AC0B62A154436005FB994 /* Main.storyboard */; };
@@ -15,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		616A76372A1D7170008DE6CA /* EOLSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLSearchTableViewController.swift; sourceTree = "<group>"; };
+		616A76392A1D7191008DE6CA /* EOLItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItemViewController.swift; sourceTree = "<group>"; };
+		616A763B2A1D77A0008DE6CA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		616A763D2A1D77B4008DE6CA /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		616A763F2A1D78B7008DE6CA /* EOLController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLController.swift; sourceTree = "<group>"; };
+		616A76412A1DA329008DE6CA /* EOLItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItem.swift; sourceTree = "<group>"; };
+		616A76432A1DA339008DE6CA /* EOLItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItemDetail.swift; sourceTree = "<group>"; };
+		616A76452A1DA353008DE6CA /* EOLHierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLHierarchy.swift; sourceTree = "<group>"; };
 		618AC0AD2A154436005FB994 /* Life-FormSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life-FormSearch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		618AC0B02A154436005FB994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		618AC0B22A154436005FB994 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +73,14 @@
 				618AC0B02A154436005FB994 /* AppDelegate.swift */,
 				618AC0B22A154436005FB994 /* SceneDelegate.swift */,
 				618AC0B62A154436005FB994 /* Main.storyboard */,
+				616A76392A1D7191008DE6CA /* EOLItemViewController.swift */,
+				616A76372A1D7170008DE6CA /* EOLSearchTableViewController.swift */,
+				616A76412A1DA329008DE6CA /* EOLItem.swift */,
+				616A76432A1DA339008DE6CA /* EOLItemDetail.swift */,
+				616A76452A1DA353008DE6CA /* EOLHierarchy.swift */,
+				616A763F2A1D78B7008DE6CA /* EOLController.swift */,
+				616A763D2A1D77B4008DE6CA /* APIRequest.swift */,
+				616A763B2A1D77A0008DE6CA /* APIService.swift */,
 				618AC0B92A154438005FB994 /* Assets.xcassets */,
 				618AC0BB2A154438005FB994 /* LaunchScreen.storyboard */,
 				618AC0BE2A154438005FB994 /* Info.plist */,
@@ -135,8 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616A763A2A1D7191008DE6CA /* EOLItemViewController.swift in Sources */,
+				616A76402A1D78B7008DE6CA /* EOLController.swift in Sources */,
+				616A76442A1DA33A008DE6CA /* EOLItemDetail.swift in Sources */,
 				618AC0B12A154436005FB994 /* AppDelegate.swift in Sources */,
+				616A76382A1D7170008DE6CA /* EOLSearchTableViewController.swift in Sources */,
 				618AC0B32A154436005FB994 /* SceneDelegate.swift in Sources */,
+				616A763E2A1D77B4008DE6CA /* APIRequest.swift in Sources */,
+				616A763C2A1D77A0008DE6CA /* APIService.swift in Sources */,
+				616A76462A1DA353008DE6CA /* EOLHierarchy.swift in Sources */,
+				616A76422A1DA329008DE6CA /* EOLItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
